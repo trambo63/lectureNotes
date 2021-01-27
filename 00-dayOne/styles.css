@@ -1,0 +1,89 @@
+body {
+    background-color: tomato;
+}
+
+.circle {
+    background-color: white;
+
+    height: 45em;
+    width: 45em;
+
+    position: absolute;
+    /* position absolute: the normal flow of an html doc is top to bottom. What this does breaks it from the normal flow of a html doc. Now we can move the circle around the page where we want it */
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* now that we are in postion absolute we use top left bottom and right to postion this */
+
+    margin: auto;
+    /* margin auto: applies an even margin on all sides of the element, so centers it */
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 50px black;
+}
+
+.topBun {
+    background-color: tan;
+    height: 5.5em;
+    width: 28em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 15em;
+    right: 0;
+
+    margin: auto;
+    border-radius: 35% 35% 0 0;
+}
+
+.ketchup {
+    background-color: red;
+    height: 2em;
+    width: 28em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 5em;
+    right: 0;
+    margin: auto;
+}
+
+.mustard {
+    background-color: yellow;
+    height: 2em;
+    width: 28em;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.patty {
+    background-color: rgb(58, 9, 9);
+    height: 5em;
+    width: 28em;
+    position: absolute;
+    top: 9em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bottomBun {
+    background-color: tan;
+    height: 5.5em;
+    width: 28em;
+    position: absolute;
+    top: 20em;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+    border-radius: 0 0 35% 35%;
+}
